@@ -65,7 +65,7 @@ header {
     border:1px solid rgba(0,0,0, 0.1);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 	
-	transform: translateY(calc(-10vh - 15px));
+	/*transform: translateY(calc(-10vh - 15px));*/
 	transition: .3s ease-in-out;
 }
 
@@ -75,7 +75,10 @@ header:hover .header {
 
 .logo {
 	float: left;
-	height: 100%;
+	position: relative;
+	left: 1vh;
+	top: 1vh;
+	height: 8vh;
 }
 
 .header_right {

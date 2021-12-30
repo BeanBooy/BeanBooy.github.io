@@ -1,0 +1,9 @@
+block#test wort !?
+block#2. block zum testen.
+if#Bedingung
+true#die Bedingung ist wahr
+block#block unter wahr
+false#die Bedingung ist falsch
+block#block unter falsch
+back
+block#block unter beiden
