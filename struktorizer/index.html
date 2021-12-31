@@ -14,12 +14,15 @@
 				 <input type="file" name="inputfile"
 				id="inputfile"  accept=".txt">
 				
-				<button>new file</button>
+				<button onclick="newFile()">new file</button>
 				<button>open file</button>
 				<button>save file</button>
 			</div>
 			<div class="header header-bottom">
-				test
+				<button>add Element</button>
+				<button>add If</button>
+				<button>add While</button>
+				<button>add Do While</button>
 			</div>
 			
 		</header>
@@ -29,6 +32,13 @@
 			
 		</div>
 		
+		<!-- Popups and Stuff -->
+		
+		<div id="overlay" onclick="document.getElementById('overlay').style.display = none;">
+			<div>
+				this is content of the overlay.
+			</div>
+		</div>
 		
 	</body>
 	

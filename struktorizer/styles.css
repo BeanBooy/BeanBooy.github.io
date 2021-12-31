@@ -3,15 +3,17 @@ html, body {
 }
 
 header {
-	padding: 10px;
+	
 }
 
 .header-top {
 	background-color: orange;
+	padding: 5px;
 }
 
 .header-bottom {
 	background-color: lightgray;
+	padding: 5px;
 }
 
 #display {
@@ -23,6 +25,40 @@ header {
 .block {
 	background: gray;
 	height: 50px;
-	width: 300px;
+	width: auto;
 	border: 2px solid black;
+}
+
+#overlay > * {
+	background: white;
+	padding: 50px;
+	border-radius: 30px;
+	z-index: 1;
+}
+#overlay > *::after {
+	content: ' ';
+	height: 40px;
+	width: 40px;
+    background-image: url("img/close_w.svg");
+	background-color: black;
+	background-size: contain;
+	float: right;
+    top: -30px;
+    right: -30px;
+    position: relative;
+	border-radius: 100%;
+}
+
+
+
+#overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+	display: flex;
+	justify-content: center;
+    align-items: center;
 }
