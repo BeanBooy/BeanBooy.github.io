@@ -68,3 +68,10 @@ function getNewId() {
 function newFile() {
 	
 }
+
+function openOverlay(id) {
+	document.getElementById(id).style.display = "flex";
+}
+function hideOverlay(id) {
+	document.getElementById(id).style.display = "none";
+}
