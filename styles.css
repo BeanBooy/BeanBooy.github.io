@@ -196,6 +196,8 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: black;
+	box-sizing: border-box;
 }
 
 .wheelCell img {

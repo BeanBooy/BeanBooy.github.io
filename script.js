@@ -25,6 +25,7 @@ document.addEventListener ('scroll',function () {
 
 
 var wheelRotation = [0, 0, 0];
+var wheelElement = [0, 0, 0];
 
 function spin() {
 	
@@ -34,8 +35,8 @@ function spin() {
 		
 		var elementsRolled = getRandomInt(20, 50);
 		console.log(elementsRolled);
-		var onElementId = elementsRolled % 9;
-		console.log("Wheel on Element " + onElementId);
+		wheelElement[i] = (wheelElement[i] + elementsRolled) % 9;
+		console.log("wheel " + i + " on element " + wheelElement[i]);
 		var degAdded = elementsRolled * 40;
 		wheelRotation[i] += degAdded;
 		document.getElementById("wheel_" + i).style.transitionDuration  = elementsRolled * 0.1 + "s";
