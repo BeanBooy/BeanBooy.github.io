@@ -97,12 +97,16 @@ header:hover .header {
 
 .header_right span {
 	margin-inline: 4vw;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5em;
+	color: var(--col2);
 }
 
 .header_right a {
 	margin-left: 20px;
 	text-decoration: none;
 	color: white;
+	font-size: .5em;
 }
 
 .main {
@@ -215,7 +219,9 @@ h1 {
 	border: none;
 	background: linear-gradient(45deg, var(--col3) 0%, var(--col2) 100%);
 }
-
+.spinWheel:hover ~ #cursor2 {
+	background-color: red;
+}
 
 
 
