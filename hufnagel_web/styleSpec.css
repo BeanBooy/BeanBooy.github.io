@@ -1,0 +1,39 @@
+
+body {
+	padding: 0;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 1500px;
+	padding-block: 30px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* table head */
+th {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+	text-align: left;
+}
+
+/* table line */
+tr {
+	border-bottom: 1px solid var(--col3);
+}
+
+/* table element */
+td {
+    color: white;
+    font-family: Arial,sans-serif;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
