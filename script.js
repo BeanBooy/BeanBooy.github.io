@@ -22,12 +22,14 @@ document.addEventListener ('scroll',function () {
 });
 
 
-
+var tickets = 0;
 
 var wheelRotation = [0, 0, 0];
 var wheelElement = [0, 0, 0];
 
 function spin() {
+	
+	var consoleOutput = "";
 	
 	console.log("-------------------------");
 	
@@ -44,20 +46,4 @@ function spin() {
 	}
 	
 	console.log("-------------------------");
-}
-
-
-
-var rotcounter = 0;
-function rotate(rot) {
-	
-	rotcounter += rot;
-	
-	console.log('Rotate: ' + rotcounter + 'deg');
-	
-	document.getElementById("spin").style.transform = "rotateY(" + rotcounter + "deg)";
-}
-
-function getRandomInt(min, max) {
-  return Math.round(Math.random() * (max - min) + min);
 }

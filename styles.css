@@ -162,13 +162,19 @@ h1 {
 
 
 .lottery {
-	padding-top: 25vh;
 	height: 100vh;
+}
+
+.ticket_count {
+	position: absolute;
+	margin: 5vh;
+	right: 0;
 }
 
 .wheelOfFortune {
 	width: 210px;
 	height: 630px;
+	margin-top: 25vh;
 	perspective: 1000px;
 }
 
